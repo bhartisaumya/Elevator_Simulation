@@ -3,7 +3,7 @@ An Elevator System design made using Django, MySQL and DRF.
 
 What does Simulation can do :
 1. Create an Elevator System with N elevators
-2. Make an elevator non operational
+2. Make an elevator non-operational
 3. When call(s) are made from multiple floors, a FCFS algorithm is used to get the nearest elevator for each call.
 4. Record all requests made to an elevator.
 
@@ -18,7 +18,7 @@ so this elevator is not selected again by any other request.
 
 # APIs endpoints :
 
-/api/elevator/initialise : Takes number of lifts, nax_floor and min_floor and staring points as a parameter
+/api/elevator/initialise : Takes number of lifts, max_floor and min_floor and starting points as a parameter
 
 /api/elevator/patch : Make a lift out of use or change the door status
 
@@ -26,7 +26,7 @@ so this elevator is not selected again by any other request.
 
 /api/elevator/moving_status = Get the direction in which the elevator is moving
 
-/api/elevator/get_destination = Get the destination in which the elevator is currently
+/api/elevator/get_destination = Get the destination in which the elevator is currently located
 
 /api/elevator/get_requests = Get all requests for an elevator made so far.
 
